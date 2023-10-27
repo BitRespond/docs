@@ -1,0 +1,20 @@
+theme: "just-the-docs"
+
+title: Whatsapp SDK
+description: Whatsapp SDK allow you to communicate with whatsapp services
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://ws-docs.bitrespond.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+permalink: pretty
+
+# Enable or disable the site search
+# Supports true (default) or false
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "Edit Doc":
+    - "//github.com/bitrespond/docs"
+
+# Footer content appears at the bottom of every page's main content
+footer_content: 'Copyright &copy; 2023 <a href="https://github.com/bitrespond/docs">Whatsapp SDK</a> All rights reserved. Powered by <a href="https://bitrespond.com">BitRespond</a>'
