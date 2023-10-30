@@ -20,7 +20,7 @@ You can check the TypeDoc for [ChatModel](/typedocs/whatsapp-sdk/classes/models_
 
 ## Last Message
 
-Most of the time chats contain last message if not then you load load last message
+Most of the time chats contain last message if not then you load last message
 
 ```js
 if (!chat.lastMessage) {
