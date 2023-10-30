@@ -24,18 +24,79 @@ or for ReactJS
 npm install whatsapp-sm-sdk
 ```
 
-## Example Usage
+## React Example usage
 
-```python
-class User(Model):
-    name = TextField()
+First of all subscribe to events.
 
+```js
+import { useReactSubscriber } from "whatsapp-sm-sdk";
 
-u = User()
-u.name = "Azeem Haider"
-u.save()
+const App = () => {
+  useReactSubscriber();
 
-# Get user
-user = User.collection.get(u.key)
-print(user.name)
+  return <div>My Read App</div>;
+};
+```
+
+In second setup you have to connect with whatsapp server
+
+```js
+import { wa, useConnection } from "whatsapp-sm-sdk";
+
+const LoginPage = () => {
+  const connection = useConnection();
+
+  useEffect(() => {
+    if (!wa.connected) {
+      wa.connect("your_server_address", {
+        type: "jwt",
+        token: "jwt_token",
+        identifier: "16505551234",
+      });
+    }
+  }, []);
+
+  if (connection.qr) {
+    return <QR value={connection.qr} />;
+  }
+
+  if (connection.state === "open") {
+    return <Navigate to="/home" />;
+  }
+
+  return <div>Login Page</div>;
+};
+```
+
+## Example usage with core SDK
+
+```js
+import wa from "whatsapp-sdk";
+
+wa.connect("your_server_address", {
+  type: "jwt",
+  token: "jwt_token",
+  identifier: "16505551234",
+});
+
+// QR code when user to connect first time
+wa.connection.onUpdate((conn) => {
+  console.log(conn.qr);
+});
+```
+
+Here is basic example of listing incoming and send messages.
+
+```js
+// Subscribe to incoming message
+wa.message.onIncoming((messages) => {
+  console.log(messages);
+});
+
+// Send message
+const message = new wa.message.send.text();
+message.to = send_to_id;
+message.text = "Sample text message";
+const messageId = message.send();
+console.log(messageId);
 ```
