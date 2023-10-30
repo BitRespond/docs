@@ -17,7 +17,7 @@ permalink: /whatsapp-sdk/message
 ## Send Message
 
 You can send different types of messages, text, audio, video, image, stick, list, buttons and template message. We support all types of message to send.
-You can check type docs to see what kind of message are support to send. [Send Messages Doc](/typedocs/whatsapp-sdk/classes/whatsapp_client.default.html#message)
+You can check type docs to see what kind of message are support to send. [Send Message TypeDoc](/typedocs/whatsapp-sdk/classes/whatsapp_client.default.html#message)
 
 ### Text Message
 
