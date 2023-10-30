@@ -3,7 +3,7 @@ layout: default
 title: Message
 nav_order: 2
 description: "Message"
-parent: whatsapp-sdk
+parent: Whatsapp SDK
 permalink: /whatsapp-sdk/message
 ---
 

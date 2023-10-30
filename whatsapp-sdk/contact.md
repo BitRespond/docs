@@ -3,7 +3,7 @@ layout: default
 title: Contact
 nav_order: 3
 description: "Contact"
-parent: whatsapp-sdk
+parent: Whatsapp SDK
 permalink: /whatsapp-sdk/contact
 ---
 

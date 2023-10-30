@@ -3,7 +3,7 @@ layout: default
 title: Connection
 nav_order: 1
 description: "Connection"
-parent: whatsapp-sdk
+parent: Whatsapp SDK
 permalink: /whatsapp-sdk/connection
 ---
 

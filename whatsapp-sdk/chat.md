@@ -3,7 +3,7 @@ layout: default
 title: Chat
 nav_order: 4
 description: "Chat"
-parent: whatsapp-sdk
+parent: Whatsapp SDK
 permalink: /whatsapp-sdk/chat
 ---
 
