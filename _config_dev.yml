@@ -1,4 +1,4 @@
-remote_theme: pmarsceill/just-the-docs
+theme: "just-the-docs"
 
 title: Whatsapp SDK
 description: Whatsapp SDK allow you to communicate with whatsapp services
