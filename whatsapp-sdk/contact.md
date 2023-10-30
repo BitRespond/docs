@@ -16,7 +16,7 @@ permalink: /whatsapp-sdk/contact
 
 ## ContactModel
 
-You can check the TypeDoc for [ContactModel]()
+You can check the TypeDoc for [ContactModel](/typedocs/whatsapp-sdk/classes/models_contact_model.default.html)
 
 ## Download Profile Pic
 
@@ -52,16 +52,16 @@ wa.contact.onIncoming((contacts) => {
 ### onPresenceUpdate
 
 When user presence changes
-Response: [PresenceUpdate]()
+Response: [ContactUpdate](/typedocs/whatsapp-sdk/types/events_contact_events.CBContactsUpdate.html)
 
 ### onDownloadProfile
 
-Response: [ContactUpdate]()
+Response: [ContactUpdate](/typedocs/whatsapp-sdk/types/events_contact_events.CBContactsUpdate.html)
 
 ### onIncoming
 
-Response: [ContactModel]()
+Response: [ContactModel](/typedocs/whatsapp-sdk/classes/models_contact_model.default.html)
 
 ### onUpdate
 
-Response: [ContactUpdate]()
+Response: [ContactUpdate](/typedocs/whatsapp-sdk/types/events_contact_events.CBContactsUpdate.html)
