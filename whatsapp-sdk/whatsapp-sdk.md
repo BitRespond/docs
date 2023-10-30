@@ -7,6 +7,13 @@ has_children: true
 permalink: /whatsapp-sdk
 ---
 
+## Table of contents
+
+1. TOC
+{:toc}
+
+---
+
 # Core SDK
 
 Core SDK can be use on client side as well as on nodeJs as a backend service

@@ -7,6 +7,13 @@ parent: Whatsapp SDK
 permalink: /whatsapp-sdk/message
 ---
 
+## Table of contents
+
+1. TOC
+{:toc}
+
+---
+
 ## Send Message
 
 You can send different types of messages, text, audio, video, image, stick, list, buttons and template message. We support all types of message to send.

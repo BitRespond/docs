@@ -7,6 +7,13 @@ parent: Whatsapp SDK
 permalink: /whatsapp-sdk/contact
 ---
 
+## Table of contents
+
+1. TOC
+{:toc}
+
+---
+
 ## ContactModel
 
 You can check the TypeDoc for [ContactModel]()

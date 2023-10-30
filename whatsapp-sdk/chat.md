@@ -7,6 +7,13 @@ parent: Whatsapp SDK
 permalink: /whatsapp-sdk/chat
 ---
 
+## Table of contents
+
+1. TOC
+{:toc}
+
+---
+
 ## ChatModel
 
 You can check the TypeDoc for [ChatModel]()

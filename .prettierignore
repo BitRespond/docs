@@ -1,0 +1,17 @@
+tsconfig.json
+
+build/
+
+.github
+
+node_modules/
+
+docs/
+
+typedocs/
+
+index.md
+
+whatsapp-sdk/
+
+whatsapp-sm-sdk/

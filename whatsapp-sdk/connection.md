@@ -7,6 +7,13 @@ parent: Whatsapp SDK
 permalink: /whatsapp-sdk/connection
 ---
 
+## Table of contents
+
+1. TOC
+{:toc}
+
+---
+
 ## ConnectionModel
 
 You can check the TypeDoc for [ConnectionModel]()
