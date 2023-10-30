@@ -7,6 +7,123 @@ parent: Whatsapp SDK
 permalink: /whatsapp-sdk/message
 ---
 
+## Send Message
+
+You can send different types of messages, text, audio, video, image, stick, list, buttons and template message. We support all types of message to send.
+You can check type docs to see what kind of message are support to send. [Send Messages Doc](/typedocs/whatsapp-sdk/classes/whatsapp_client.default.html#message)
+
+### Text Message
+
+```js
+const message = new wa.message.send.text();
+message.to = send_to_id;
+message.text = "Sample Text message";
+const id = message.send();
+console.log(id);
+```
+
+### Media Message
+
+Media message support to send image, sticker, audio, video, voice and document messages.
+
+```js
+// image message
+const message = new wa.message.send.media();
+message.to = send_to_id;
+message.type = "image";
+message.media = "url_to_image.jpg"; // Accept URL and local File object
+message.send();
+
+// video message
+const message = new wa.message.send.media();
+message.to = send_to_id;
+message.type = "video";
+message.media = "url_to_video.mp4"; // Accept URL and local File object
+message.send();
+```
+
+### Contact Message
+
+Send contacts
+
+```js
+const message = new wa.message.send.contact();
+message.to = send_to_id;
+message.name = "Name to display";
+message.phoneNumber = 16505551234;
+message.send();
+```
+
+### Location Message
+
+You can also send location message.
+
+```js
+const message = new wa.message.send.location();
+message.to = send_to_id;
+message.lat = 123.12;
+message.lng = 53.21;
+message.send();
+```
+
+### Button Message
+
+Button message also support media message like image, video and document;
+
+```js
+const message = new wa.message.send.button();
+message.to = send_to_id;
+message.type = "text";
+message.text = "Text with buttons";
+message.buttons = ["Btn 1", "Btn 2", "Btn 3"];
+message.send();
+```
+
+### Template Message
+
+Template messages are similar to button message but provide more control on buttons.
+You can send different kind of buttons, like Quick Reply, URL and call type buttons, you can add up to three buttons in template message.
+Template message also support media like button message.
+
+```js
+const message = new wa.message.send.template();
+message.to = send_to_id;
+message.type = "text";
+message.text = "Text with template message";
+message.buttons = [
+  { type: "reply", text: "Quick Reply" },
+  { type: "url", text: "http://bitrespond.com" },
+];
+
+message.send();
+```
+
+### List Message
+
+List message provide user to select from multiple options;
+
+```js
+const message = new wa.message.send.list();
+message.to = send_to_id;
+message.title = "List Message";
+message.text = "Message body";
+message.sections = [{ title: "Section 1", options: [{ title: "Option 1", description: "Option 1 description" }] }];
+
+message.send();
+```
+
+## Reply to message
+
+You can also reply to any message, for example we want to reply a text message to any message;
+
+```js
+const message = new wa.message.send.text();
+const message.to = send_to_id;
+message.text = "Reply to message";
+message.replyTo = message; // any existing message
+message.send();
+```
+
 ## MessageModel
 
 You can check the TypeDoc for [MessageModel]()

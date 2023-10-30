@@ -48,7 +48,7 @@ wa.message.onIncoming((messages) => {
 
 // Send message
 const message = new wa.message.send.text();
-message.to = senderId;
+message.to = send_to_id;
 message.text = "Sample text message";
 const messageId = message.send();
 console.log(messageId);
