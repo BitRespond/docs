@@ -35,7 +35,7 @@ We have also full fledge example which implement `whatsapp-sm-sdk`, check it on 
 [Whatsapp SDK Example](https://github.com/BitRespond/wa-test-frontend)
 
 ### Connection
-Connect to whatsapp server, [Read more about connection](whatsapp-sm-sdk/connection)
+Connect to whatsapp server, [Read more about connection]({{ site.baseurl }}/whatsapp-sm-sdk/connection)
 
 ```js
 import {wa} from "whatsapp-sm-sdk";
@@ -48,7 +48,7 @@ wa.connect("your_server_address", {
 ```
 
 ### Send Message
-Here is basic example of send messages. [Read more about messages](whatsapp-sm-sdk/message)
+Here is basic example of send messages. [Read more about messages]({{ site.baseurl }}/whatsapp-sm-sdk/message)
 
 ```js
 import {TextMessage} from "whatsapp-sm-sdk"

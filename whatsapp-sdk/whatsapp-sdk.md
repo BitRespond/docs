@@ -26,7 +26,7 @@ npm install whatsapp-sdk
 
 ### Connection
 
-Connect to whatsapp server, [Read more about connection](whatsapp-sdk/connection)
+Connect to whatsapp server, [Read more about connection]({{ site.baseurl }}/whatsapp-sdk/connection)
 
 ```js
 import wa from "whatsapp-sdk";
@@ -45,7 +45,7 @@ wa.connection.onUpdate((conn) => {
 
 ### Messages
 
-Here is basic example of listing incoming and send messages. [Read more about messages](whatsapp-sdk/message)
+Here is basic example of listing incoming and send messages. [Read more about messages]({{ site.baseurl }}/whatsapp-sdk/message)
 
 ```js
 // Subscribe to incoming message

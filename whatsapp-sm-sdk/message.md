@@ -38,7 +38,7 @@ const ConversationPage = ({ chatId }) => {
 
 
 ### Text Message
-[TextMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_text_message.TextMessage.html)
+[TextMessage TypeDoc]({{ site.baseurl }}/typedocs/whatsapp-sdk/classes/messages_text_message.TextMessage.html)
 
 ```js
 import {TextMessage} from "whatsapp-sm-sdk"
@@ -53,7 +53,7 @@ console.log(id);
 ### Media Message
 
 Media message support to send image, sticker, audio, video, voice and document messages.  
-[MediaMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_media_message.MediaMessage.html)
+[MediaMessage TypeDoc]({{ site.baseurl }}/typedocs/whatsapp-sdk/classes/messages_media_message.MediaMessage.html)
 
 ```js
 // image message
@@ -73,7 +73,7 @@ message.send();
 
 ### Contact Message
 
-Send contacts. [ContactMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_contact_message.ContactMessage.html)
+Send contacts. [ContactMessage TypeDoc]({{ site.baseurl }}/typedocs/whatsapp-sdk/classes/messages_contact_message.ContactMessage.html)
 
 ```js
 const message = new ContactMessage();
@@ -85,7 +85,7 @@ message.send();
 
 ### Location Message
 
-You can also send location message. [LocationMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_location_message.LocationMessage.html)
+You can also send location message. [LocationMessage TypeDoc]({{ site.baseurl }}/typedocs/whatsapp-sdk/classes/messages_location_message.LocationMessage.html)
 
 ```js
 const message = new LocationMessage();
@@ -98,7 +98,7 @@ message.send();
 ### Button Message
 
 Button message also support media message like image, video and document.
-[ButtonMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_button_message.ButtonMessage.html)
+[ButtonMessage TypeDoc]({{ site.baseurl }}/typedocs/whatsapp-sdk/classes/messages_button_message.ButtonMessage.html)
 
 ```js
 const message = new ButtonMessage();
@@ -114,7 +114,7 @@ message.send();
 Template messages are similar to button message but provide more control on buttons.
 You can send different kind of buttons, like Quick Reply, URL and call type buttons, you can add up to three buttons in template message.
 Template message also support media like button message.  
-[TemplateMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_template_message.TemplateMessage.html)
+[TemplateMessage TypeDoc]({{ site.baseurl }}/typedocs/whatsapp-sdk/classes/messages_template_message.TemplateMessage.html)
 
 ```js
 const message = new TemplateMessage();
@@ -132,7 +132,7 @@ message.send();
 ### List Message
 
 List message provide user to select from multiple options.  
-[ListMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_list_message.ListMessage.html)
+[ListMessage TypeDoc]({{ site.baseurl }}/typedocs/whatsapp-sdk/classes/messages_list_message.ListMessage.html)
 
 ```js
 const message = new ListMessage();
