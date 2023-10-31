@@ -8,6 +8,7 @@ permalink: /whatsapp-sdk/chat
 ---
 
 ## Table of contents
+{: .no_toc }
 
 1. TOC
 {:toc}

@@ -8,6 +8,7 @@ permalink: /whatsapp-sdk/message
 ---
 
 ## Table of contents
+{: .no_toc }
 
 1. TOC
 {:toc}
