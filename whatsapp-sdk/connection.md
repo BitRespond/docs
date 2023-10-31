@@ -16,7 +16,7 @@ permalink: /whatsapp-sdk/connection
 
 ## ConnectionModel
 
-You can check the TypeDoc for [ConnectionModel](/typedocs/whatsapp-sdk/classes/models_connection_model.default.html)
+You can check the TypeDoc for [ConnectionModel](typedocs/whatsapp-sdk/classes/models_connection_model.default.html)
 
 ## Connection
 
@@ -91,4 +91,4 @@ if (wa.connected) {
 ### onUpdate
 
 When whatsapp connection update, response also contain QR code when first time user connect to whatsapp.
-Response: [ConnectionModel](/typedocs/whatsapp-sdk/classes/models_connection_model.default.html)
+Response: [ConnectionModel](typedocs/whatsapp-sdk/classes/models_connection_model.default.html)

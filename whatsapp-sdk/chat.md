@@ -16,7 +16,7 @@ permalink: /whatsapp-sdk/chat
 
 ## ChatModel
 
-You can check the TypeDoc for [ChatModel](/typedocs/whatsapp-sdk/classes/models_chat_model.default.html)
+You can check the TypeDoc for [ChatModel](typedocs/whatsapp-sdk/classes/models_chat_model.default.html)
 
 ## Last Message
 
@@ -59,15 +59,15 @@ Most of time you don't need events when working with models. Because models prov
 
 ### onLastMessage
 
-Response: [ChatUpdate](/typedocs/whatsapp-sdk/types/events_chat_events.CBChatUpdate.html)
+Response: [ChatUpdate](typedocs/whatsapp-sdk/types/events_chat_events.CBChatUpdate.html)
 
 ### onIncoming
 
-Response: [ChatModel](/typedocs/whatsapp-sdk/classes/models_chat_model.default.html)
+Response: [ChatModel](typedocs/whatsapp-sdk/classes/models_chat_model.default.html)
 
 ### onUpdate
 
-Response: [ChatUpdate](/typedocs/whatsapp-sdk/types/events_chat_events.CBChatUpdate.html)
+Response: [ChatUpdate](typedocs/whatsapp-sdk/types/events_chat_events.CBChatUpdate.html)
 
 ### onDelete
 

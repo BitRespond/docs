@@ -17,10 +17,10 @@ permalink: /whatsapp-sdk/message
 ## Send Message
 
 You can send different types of messages, text, audio, video, image, stick, list, buttons and template message. We support all types of message to send.
-You can check type docs to see what kind of message are support to send. [Send Message TypeDoc](/typedocs/whatsapp-sdk/classes/whatsapp_client.default.html#message)
+You can check type docs to see what kind of message are support to send. [Send Message TypeDoc](typedocs/whatsapp-sdk/classes/whatsapp_client.default.html#message)
 
 ### Text Message
-[TextMessage TypeDoc](/typedocs/whatsapp-sdk/classes/messages_text_message.TextMessage.html)
+[TextMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_text_message.TextMessage.html)
 
 ```js
 const message = new wa.message.send.text();
@@ -33,7 +33,7 @@ console.log(id);
 ### Media Message
 
 Media message support to send image, sticker, audio, video, voice and document messages.  
-[MediaMessage TypeDoc](/typedocs/whatsapp-sdk/classes/messages_media_message.MediaMessage.html)
+[MediaMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_media_message.MediaMessage.html)
 
 ```js
 // image message
@@ -53,7 +53,7 @@ message.send();
 
 ### Contact Message
 
-Send contacts. [ContactMessage TypeDoc](/typedocs/whatsapp-sdk/classes/messages_contact_message.ContactMessage.html)
+Send contacts. [ContactMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_contact_message.ContactMessage.html)
 
 ```js
 const message = new wa.message.send.contact();
@@ -65,7 +65,7 @@ message.send();
 
 ### Location Message
 
-You can also send location message. [LocationMessage TypeDoc](/typedocs/whatsapp-sdk/classes/messages_location_message.LocationMessage.html)
+You can also send location message. [LocationMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_location_message.LocationMessage.html)
 
 ```js
 const message = new wa.message.send.location();
@@ -78,7 +78,7 @@ message.send();
 ### Button Message
 
 Button message also support media message like image, video and document.
-[ButtonMessage TypeDoc](/typedocs/whatsapp-sdk/classes/messages_button_message.ButtonMessage.html)
+[ButtonMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_button_message.ButtonMessage.html)
 
 ```js
 const message = new wa.message.send.button();
@@ -94,7 +94,7 @@ message.send();
 Template messages are similar to button message but provide more control on buttons.
 You can send different kind of buttons, like Quick Reply, URL and call type buttons, you can add up to three buttons in template message.
 Template message also support media like button message.  
-[TemplateMessage TypeDoc](/typedocs/whatsapp-sdk/classes/messages_template_message.TemplateMessage.html)
+[TemplateMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_template_message.TemplateMessage.html)
 
 ```js
 const message = new wa.message.send.template();
@@ -112,7 +112,7 @@ message.send();
 ### List Message
 
 List message provide user to select from multiple options.  
-[ListMessage TypeDoc](/typedocs/whatsapp-sdk/classes/messages_list_message.ListMessage.html)
+[ListMessage TypeDoc](typedocs/whatsapp-sdk/classes/messages_list_message.ListMessage.html)
 
 ```js
 const message = new wa.message.send.list();
@@ -138,7 +138,7 @@ message.send();
 
 ## MessageModel
 
-You can check the TypeDoc for [MessageModel](/typedocs/whatsapp-sdk/classes/models_message_model.default.html)
+You can check the TypeDoc for [MessageModel](typedocs/whatsapp-sdk/classes/models_message_model.default.html)
 
 ## Display Message
 
@@ -208,24 +208,24 @@ unsub();
 ### onIncoming
 
 When new message are received.  
-Response: [MessageModel](/typedocs/whatsapp-sdk/classes/models_message_model.default.html)
+Response: [MessageModel](typedocs/whatsapp-sdk/classes/models_message_model.default.html)
 
 ### onUpdate
 
 When any message update like when message is delivered or read by other user.  
-Response: [MessageUpdate](/typedocs/whatsapp-sdk/types/events_message_events.CBMessageUpdate.html)
+Response: [MessageUpdate](typedocs/whatsapp-sdk/types/events_message_events.CBMessageUpdate.html)
 
 ### onHistory
 
 Every time when use connect to whatsapp server, it send contacts, chats and messages.
-Response: [MessageHistory](/typedocs/whatsapp-sdk/types/events_message_events.CBMessageHistory.html)
+Response: [MessageHistory](typedocs/whatsapp-sdk/types/events_message_events.CBMessageHistory.html)
 
 ### onLoadMessage
 
 When you load earlier messages.
-Response: [MessageModel](/typedocs/whatsapp-sdk/classes/models_message_model.default.html)
+Response: [MessageModel](typedocs/whatsapp-sdk/classes/models_message_model.default.html)
 
 ### onMediaDownload
 
 When you send request to download media
-Response: [MessageUpdate](/typedocs/whatsapp-sdk/types/events_message_events.CBMessageUpdate.html)
+Response: [MessageUpdate](typedocs/whatsapp-sdk/types/events_message_events.CBMessageUpdate.html)

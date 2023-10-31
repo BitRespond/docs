@@ -45,7 +45,7 @@ wa.connection.onUpdate((conn) => {
 
 ### Messages
 
-Here is basic example of listing incoming and send messages. [Read more about messages](/whatsapp-sdk/message)
+Here is basic example of listing incoming and send messages. [Read more about messages](whatsapp-sdk/message)
 
 ```js
 // Subscribe to incoming message
