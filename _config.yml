@@ -4,7 +4,6 @@ title: Whatsapp SDK
 description: Whatsapp SDK allow you to communicate with whatsapp services
 baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "bitrespond.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-basewebsite: /docs
 
 permalink: pretty
 
