@@ -16,7 +16,7 @@ permalink: /whatsapp-sdk/connection
 
 ## ConnectionModel
 
-You can check the TypeDoc for [ConnectionModel](typedocs/whatsapp-sdk/classes/models_connection_model.default.html)
+You can check the TypeDoc for [ConnectionModel](./typedocs/whatsapp-sdk/classes/models_connection_model.default.html)
 
 ## Connection
 
