@@ -2,8 +2,8 @@ remote_theme: pmarsceill/just-the-docs
 
 title: Whatsapp SDK
 description: Whatsapp SDK allow you to communicate with whatsapp services
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "bitrespond.github.io/docs" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/docs" # the subpath of your site, e.g. /blog
+url: "bitrespond.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 
