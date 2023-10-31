@@ -26,7 +26,7 @@ npm install whatsapp-sdk
 
 ### Connection
 
-Connect to whatsapp server, [Read more about connection](/whatsapp-sdk/connection)
+Connect to whatsapp server, [Read more about connection](whatsapp-sdk/connection)
 
 ```js
 import wa from "whatsapp-sdk";

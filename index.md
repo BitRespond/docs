@@ -13,4 +13,4 @@ Whatsapp SDK allow you to communicate with whatsapp services, just install and u
 core `whatsapp-sdk` and other one is core sdk with state management which is useful for React like application `whatsapp-sm-sdk`
 {: .fs-6 .fw-300 }
 
-[Whatsapp SDK](/whatsapp-sdk){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Whatsapp SM SDK](/whatsapp-sm-sdk){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Whatsapp SDK](whatsapp-sdk){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Whatsapp SM SDK](/whatsapp-sm-sdk){: .btn .fs-5 .mb-4 .mb-md-0 }
